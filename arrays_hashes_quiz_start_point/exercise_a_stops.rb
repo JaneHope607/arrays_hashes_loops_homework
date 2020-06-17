@@ -13,7 +13,7 @@ stops.slice()
 p stops
 
 #4. Print out the index position of "Linlithgow"
-stops["Linilithgow"]
+
 
 #5. Remove "Livingston" from the array using its name
 stops.delete("Livingston")
