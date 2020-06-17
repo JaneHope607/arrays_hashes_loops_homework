@@ -16,6 +16,7 @@ p stops.index("Linlithgow")
 stops.delete("Livingston")
 
 #6. Delete "Cumbernauld" from the array by index
+stops.delete_at(2)
 
 #7. Print the number of stops there are in the array?
 
