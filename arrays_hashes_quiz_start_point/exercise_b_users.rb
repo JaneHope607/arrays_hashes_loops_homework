@@ -64,7 +64,7 @@ users["Erik"][:home_town]
 users["Erik"][:lottery_numbers]
 
 # 4. Get the species of Avril's pet Monty
-
+p users["Avril"]
 
 # 5. Get the smallest of Erik's lottery numbers
 users["Erik"][:lottery_numbers].min

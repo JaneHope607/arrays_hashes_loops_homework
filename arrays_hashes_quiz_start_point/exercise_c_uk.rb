@@ -23,12 +23,9 @@ united_kingdom[1][:capital] = "Cardiff"
 
 
 # 3. Use a loop to print the names of all the countries in the UK.
-# def print_name(array_of_countries)
-#   for place in array_of_countries
-#       p place
-#     end
-#   end
-# end
+  for country in united_kingdom
+      p country[:name]
+  end
 
 # 4. Use a loop to find the total population of the UK.
 def count_population(array_of_countries)
@@ -39,6 +36,4 @@ def count_population(array_of_countries)
   end
   return total_population
 end
-
-p count_population(united_kingdom)
 
