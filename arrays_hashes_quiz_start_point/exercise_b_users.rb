@@ -61,7 +61,7 @@ p users["Jonathan"][:twitter]
 p users["Erik"][:home_town]
 
 # 3. Get the array of Erik's lottery numbers
-
+p users["Erik"][:lottery_numbers]
 
 # 4. Get the species of Avril's pet Monty
 
