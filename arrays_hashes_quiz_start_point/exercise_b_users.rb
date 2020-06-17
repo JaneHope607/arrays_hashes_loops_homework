@@ -70,7 +70,7 @@ p users["Avril"][:pets][0][:species]
 p users["Erik"][:lottery_numbers].min
 
 # 6. Return an array of Avril's lottery numbers that are even
-p users["Avril"][:lottery_numbers].each { |number| puts number if number.even? }
+users["Avril"][:lottery_numbers].each { |number| puts number if number.even? }
 
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
 p users["Erik"][:lottery_numbers].append(7)
