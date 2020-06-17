@@ -22,10 +22,10 @@ stops.delete_at(2)
 p stops.length()
 
 #8. Show as many ways as you can to return "Falkirk High" from the array?
-p stops[2]
-p stops.fetch(2)
-p stops[-5]
-p stops.fetch(-5)
+stops[2]
+stops.fetch(2)
+stops[-5]
+stops.fetch(-5)
 
 #9. Reverse the positions of the stops in the array
 stops.reverse()
