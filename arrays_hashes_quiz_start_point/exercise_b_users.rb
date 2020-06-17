@@ -73,10 +73,12 @@ p users["Erik"][:lottery_numbers].min
 users["Avril"][:lottery_numbers].each { |number| puts number if number.even? }
 
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
-p users["Erik"][:lottery_numbers].append(7)
+users["Erik"][:lottery_numbers].append(7)
+p users
 
 # 8. Change Erik's hometown to Edinburgh
-p users ["Erik"][:home_town] = "Edinburgh"
+users ["Erik"][:home_town] = "Edinburgh"
+p users
 
 # 9. Add a pet dog to Erik called "Fluffy"
 p users ["Erik"][:pets].push({
