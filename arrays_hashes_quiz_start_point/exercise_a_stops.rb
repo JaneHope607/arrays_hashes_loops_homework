@@ -9,7 +9,8 @@ stops.unshift("Glasgow Queen St")
 p stops
 
 #3. Add "Polmont" at the appropriate point (between "Falkirk High" and "Linlithgow")
-
+stops.insert(4, "Polmont")
+p stops
 
 #4. Print out the index position of "Linlithgow"
 
