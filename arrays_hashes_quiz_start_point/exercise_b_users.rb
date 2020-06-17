@@ -65,11 +65,12 @@ users["Erik"][:lottery_numbers]
 
 # 4. Get the species of Avril's pet Monty
 
+
 # 5. Get the smallest of Erik's lottery numbers
 users["Erik"][:lottery_numbers].min
 
 # 6. Return an array of Avril's lottery numbers that are even
-
+users["Avril"][:lottery_numbers].each { |number| puts number if number.even? }
 
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
 users["Erik"][:lottery_numbers].append(7)
