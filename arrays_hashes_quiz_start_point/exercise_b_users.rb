@@ -64,7 +64,7 @@ users["Erik"][:home_town]
 users["Erik"][:lottery_numbers]
 
 # 4. Get the species of Avril's pet Monty
-p users["Avril"]
+users["Avril"][:pets][0][:species]
 
 # 5. Get the smallest of Erik's lottery numbers
 users["Erik"][:lottery_numbers].min
@@ -85,13 +85,3 @@ users ["Erik"][:pets].push({
 })
 
 # 10. Add another person to the users hash
-p users["Jane"] = 
-  :twitter => "jonnyt",
-    :lottery_numbers => [6, 12, 49, 33, 45, 20],
-    :home_town => "Stirling",
-    :pets => [
-    {
-      :name => "fluffy",
-      :species => "cat"
-    },
-}
