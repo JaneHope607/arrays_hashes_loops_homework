@@ -5,7 +5,8 @@ stops.push("Edinburgh Waverley")
 p stops
 
 #2. Add "Glasgow Queen St" to the start of the array
-
+stops.unshift("Glasgow Queen St")
+p stops
 
 #3. Add "Polmont" at the appropriate point (between "Falkirk High" and "Linlithgow")
 
